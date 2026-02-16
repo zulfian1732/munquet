@@ -23,7 +23,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.com/zulfian1732/munquet",
-                    "tag": "v0.1.0"
+                    "tag": "v0.1.0",
+                    "commit": "ae7964411a3cc0dafa3a987ce5b939e8f3fe169e"
                 }
             ]
         }
