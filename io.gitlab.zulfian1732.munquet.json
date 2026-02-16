@@ -12,7 +12,20 @@
         "--filesystem=home"
     ],
     "modules": [
-        "python3-pyarrow.json",
+        {
+            "name": "python3-pyarrow",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyarrow\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/2c/41/6a7328ee493527e7afc0c88d105ecca69a3580e29f2faaeac29308369fd7/pyarrow-23.0.0-cp313-cp313-manylinux_2_28_x86_64.whl",
+                    "sha256": "4292b889cd224f403304ddda8b63a36e60f92911f89927ec8d98021845ea21be"
+                }
+            ]
+        },
         {
             "name": "munquet",
             "buildsystem": "simple",
@@ -24,7 +37,7 @@
                     "type": "git",
                     "url": "https://gitlab.com/zulfian1732/munquet",
                     "tag": "v0.1.0",
-                    "commit": "ae7964411a3cc0dafa3a987ce5b939e8f3fe169e"
+                    "commit": "a1ff5771fc51abd349cd7cb840e6d4ef5e2ffa5d"
                 }
             ]
         }
