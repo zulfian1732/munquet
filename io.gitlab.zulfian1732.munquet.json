@@ -5,11 +5,10 @@
     "sdk": "org.gnome.Sdk",
     "command": "munquet",
     "finish-args": [
-        "--share=ipc",        
+        "--share=ipc",
         "--socket=wayland",
         "--socket=fallback-x11",
-        "--device=dri",
-        "--filesystem=home"
+        "--device=dri"
     ],
     "modules": [
         {
