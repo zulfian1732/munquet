@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/2c/41/6a7328ee493527e7afc0c88d105ecca69a3580e29f2faaeac29308369fd7/pyarrow-23.0.0-cp313-cp313-manylinux_2_28_x86_64.whl",
-                    "sha256": "4292b889cd224f403304ddda8b63a36e60f92911f89927ec8d98021845ea21be"
+                    "url": "https://files.pythonhosted.org/packages/b3/93/10a48b5e238de6d562a411af6467e71e7aedbc9b87f8d3a35f1560ae30fb/pyarrow-23.0.1-cp313-cp313-manylinux_2_28_x86_64.whl",
+                    "sha256": "9b6f4f17b43bc39d56fec96e53fe89d94bac3eb134137964371b45352d40d0c2"
                 }
             ]
         },
