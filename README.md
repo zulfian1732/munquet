@@ -7,7 +7,7 @@
 ---
 
 ## 🚀 Version
-**0.1.0**     
+**0.2.0**     
 For detailed changes, see the [CHANGELOG](CHANGELOG.md).
 
 ![screenshot](screenshot/screenshot1.png)  
@@ -31,26 +31,43 @@ For detailed changes, see the [CHANGELOG](CHANGELOG.md).
 
 ## 📦 Installation
 
-Munquet is currently distributed as a Flatpak package.  
-Until it is available on Flathub, it must be built from source.
- 
-### Build with Flatpak
+Munquet is available **Flathub**.
 
-Clone the repository and build locally:
+### Build from Flathub (Recommended)
 
 ```bash
-git clone https://gitlab.com/zulfian1732/munquet.git
-cd munquet
-flatpak-builder --user --install --force-clean build-dir io.gitlab.zulfian1732.munquet.json
+flatpak install flathub io.gitlab.zulfian1732.munquet
 ```
 
-### Run
+Run:
 
 ```bash
 flatpak run io.gitlab.zulfian1732.munquet
 ```
 
-> ⚠️ Once Munquet is available on Flathub, installation will be simplified to a single `flatpak install` command.
+---
+
+## 🧪 Development Build (.Devel)
+
+A development build is available for testing new features.  
+It can be installed alongside the stable version.
+
+Clone the repository and build locally:
+ 
+
+```bash
+git clone https://gitlab.com/zulfian1732/munquet.git
+cd munquet
+flatpak-builder --user --install --force-clean build-dir io.gitlab.zulfian1732.munquet.Devel.json
+```
+
+Run the development version:
+
+```bash
+flatpak run io.gitlab.zulfian1732.munquet.Devel
+```
+
+> ⚠️ The development build may contain experimental features and unstable changes.
 
 ---
 
