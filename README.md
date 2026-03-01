@@ -7,7 +7,7 @@
 ---
 
 ## 🚀 Version
-**0.2.0**     
+**0.2.1**     
 For detailed changes, see the [CHANGELOG](CHANGELOG.md).
 
 ![screenshot](screenshot/screenshot1.png)  
