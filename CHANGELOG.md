@@ -2,6 +2,9 @@
 
 Release notes:
 
+## [0.2.2] - 2026-04-18
+- Resolve portal paths to host paths in error details
+
 ## [0.2.1] - 2026-02-28
 - Fix cancel dialog race condition.
 
